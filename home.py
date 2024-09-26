@@ -10,3 +10,6 @@ st.write("Ceci est un formulaire de contact")
 user_input = st.text_input("Tapez votre texte :")
 
 st.write(user_input)
+
+#Image
+st.image("https://fac.img.pmdstatic.net/fit/~1~fac~2021~12~20~db44c7df-7828-498b-821f-4bd03cdfb75d.jpeg/1200x900/quality/80/crop-from/center/tout-savoir-sur-l-orque.jpeg")
