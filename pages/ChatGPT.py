@@ -70,4 +70,4 @@ chat_completion = client.chat.completions.create(
 
 
 # Réponse de ChapGPT
-chat_completion.choices[0].message.content
+st.write(chat_completion.choices[0].message.content)
