@@ -12,7 +12,7 @@ st.write(sidebar_input)
 
 #Intéraction avec OpenAI
 from openai import OpenAI
-client = OpenAI(api_key=OpenAIKEY)
+client = OpenAI(api_key=sidebar_input)
 
 prompt = "A cute baby sea otter"
 
