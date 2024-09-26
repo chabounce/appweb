@@ -21,4 +21,7 @@ st.sidebar.title("Charlotte Jeun")
 st.sidebar.video("https://www.youtube.com/watch?v=1laVrla1T_U")
 
 #Select Bar
-st.selectbox("Sélectionnez votre niveau d'études",["Bac","Bac +2","Bac +5"])
+student_grad = st.selectbox("Sélectionnez votre niveau d'études",["Bac","Bac +2","Bac +5"])
+
+#Select slider
+age = st.select_slider("Quel est votre âge ?", range(0,99))
