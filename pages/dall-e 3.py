@@ -7,7 +7,7 @@ user_input = st.text_input("Application Web - Open IA")
 st.write(user_input)
 
 #Champ de saisie dans la sidebar (pour la clé OpenAI)
-sidebar_input = st.sidebar.text_input("Tapez votre texte ici :")
+sidebar_input = st.sidebar.text_input("Tapez la clé OpenAI ici :")
 st.write(sidebar_input)
 
 #Intéraction avec OpenAI
