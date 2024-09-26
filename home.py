@@ -16,3 +16,6 @@ st.image("https://fac.img.pmdstatic.net/fit/~1~fac~2021~12~20~db44c7df-7828-498b
 
 #Sidebar
 st.sidebar.title("Charlotte Jeun")
+
+#Video dans la sidebar
+st.sidebar.video("https://www.youtube.com/watch?v=1laVrla1T_U")
