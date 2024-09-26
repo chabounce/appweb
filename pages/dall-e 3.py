@@ -2,12 +2,15 @@ import streamlit as st
 
 st.title("Dall-e 3")
 
+#Champ de saisie
 user_input = st.text_input("Application Web - Open IA")
 st.write(user_input)
 
+#Champ de saisie dans la sidebar (pour la clé OpenAI)
 sidebar_input = st.sidebar.text_input("Tapez votre texte ici :")
 st.write(sidebar_input)
 
+#Intéraction avec OpenAI
 from openai import OpenAI
 client = OpenAI(api_key=OpenAIKEY)
 
@@ -22,4 +25,5 @@ image = client.images.generate(
 )
 image_url = image.data[0].url
 
+#Affichage de l'image
 st.image(image_url)
