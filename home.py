@@ -19,3 +19,6 @@ st.sidebar.title("Charlotte Jeun")
 
 #Video dans la sidebar
 st.sidebar.video("https://www.youtube.com/watch?v=1laVrla1T_U")
+
+#Select Bar
+st.selectbox("Sélectionnez votre niveau d'études",["Bac","Bac +2","Bac +5"])
